@@ -29,7 +29,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/yhde-addon-b51f267c412bbf690ce8c3ccb8ba471ca93c95c7/addons/yhde/plugin.cfg")
+enabled=PackedStringArray("res://addons/GDDrawPlus/plugin.cfg")
 
 [physics]
 
