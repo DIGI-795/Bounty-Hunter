@@ -1,0 +1,32 @@
+2026-10-30T10:43:26.473452Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-10-30T10:43:26.473458Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-10-30T10:43:26.474518Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-10-30T10:43:26.495471Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
+2026-10-30T10:43:26.908161Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...
+2026-10-30T10:52:04.845680Z DEBUG backstitch_godot::interop::godot_project: 1025: ** GodotProjectPlugin: exit_tree
+2026-10-30T10:52:05.252261Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-10-30T10:52:05.252365Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-10-30T10:52:12.412836Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-10-30T10:52:12.412842Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-10-30T10:52:12.415213Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-10-30T10:52:13.596309Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
+2026-10-30T10:52:14.152302Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...
+2026-10-30T10:53:27.011305Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-10-30T10:53:27.011447Z DEBUG backstitch_godot::interop::godot_project: 1025: ** GodotProjectPlugin: exit_tree
+2026-10-30T10:53:27.023900Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-10-30T10:59:10.222987Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-10-30T10:59:10.222994Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-10-30T10:59:10.225332Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-10-30T10:59:11.387415Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
+2026-10-30T10:59:11.973428Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...
+2026-10-30T11:12:22.567961Z  INFO backstitch_godot::tracing: 174: Tracing subscriber initialized
+2026-10-30T11:12:22.567967Z  INFO backstitch_godot::interop::extension: 28: ** on_level_init: Scene
+2026-10-30T11:12:22.570510Z  INFO backstitch_godot::interop::extension: 45: ** on_level_init: Editor
+2026-10-30T11:12:23.830871Z DEBUG backstitch_godot::interop::godot_project: 978: ** GodotProjectPlugin: enter_tree
+2026-10-30T11:12:24.466669Z  INFO backstitch_godot::interop::godot_project: 734: Backstitch config has no project id, not autostarting...
+2026-10-30T11:12:33.364016Z DEBUG backstitch_godot::interop::godot_project: 1025: ** GodotProjectPlugin: exit_tree
+2026-10-30T11:12:33.688727Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-10-30T11:12:33.688809Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
+2026-10-30T11:19:30.324704Z  INFO backstitch_godot::interop::extension: 51: ** on_level_deinit: Editor
+2026-10-30T11:19:30.324956Z DEBUG backstitch_godot::interop::godot_project: 1025: ** GodotProjectPlugin: exit_tree
+2026-10-30T11:19:30.338776Z  INFO backstitch_godot::interop::extension: 69: ** on_level_deinit: Scene
