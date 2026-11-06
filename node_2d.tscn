@@ -1,3 +1,176 @@
 [gd_scene format=3 uid="uid://bd34h40qqofea"]
 
-[node name="Node2D" type="Node2D" unique_id=540053135]
+[ext_resource type="Texture2D" uid="uid://dijs2uidvtghk" path="res://Sprites/bounty_hunter_v4_frames/Attack/attack_0.png" id="1_2hxjc"]
+[ext_resource type="Texture2D" uid="uid://78ci5m5lqmlg" path="res://Sprites/bounty_hunter_v4_frames/Attack/attack_1.png" id="2_ebxd8"]
+[ext_resource type="Texture2D" uid="uid://cfvg3c3f3rwwt" path="res://Sprites/bounty_hunter_v4_frames/Attack/attack_2.png" id="3_2u7jv"]
+[ext_resource type="Texture2D" uid="uid://vatuqayp6m3w" path="res://Sprites/bounty_hunter_v4_frames/Attack/attack_3.png" id="4_24dk6"]
+[ext_resource type="Texture2D" uid="uid://bpkvuomiw34xi" path="res://Sprites/bounty_hunter_v4_frames/Axe_spin/axe_spin_0.png" id="5_mryly"]
+[ext_resource type="Texture2D" uid="uid://c7inglwvxjs7" path="res://Sprites/bounty_hunter_v4_frames/Axe_spin/axe_spin_1.png" id="6_kq1c5"]
+[ext_resource type="Texture2D" uid="uid://ck32nvvem87hv" path="res://Sprites/bounty_hunter_v4_frames/Axe_spin/axe_spin_2.png" id="7_ornx7"]
+[ext_resource type="Texture2D" uid="uid://bhu08bqa0p2yk" path="res://Sprites/bounty_hunter_v4_frames/Axe_spin/axe_spin_3.png" id="8_cnnru"]
+[ext_resource type="Texture2D" uid="uid://ibas0xu2ce8o" path="res://Sprites/bounty_hunter_v4_frames/Idle/idle_0.png" id="9_540hr"]
+[ext_resource type="Texture2D" uid="uid://gmrg5m0qywjb" path="res://Sprites/bounty_hunter_v4_frames/Idle/idle_1.png" id="10_6ip5v"]
+[ext_resource type="Texture2D" uid="uid://cy80ldyb7gctv" path="res://Sprites/bounty_hunter_v4_frames/Auch/hurt.png" id="11_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://cjoklpgl66ec8" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_0.png" id="12_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://be87s0gpnujfr" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_1.png" id="13_7plk7"]
+[ext_resource type="Texture2D" uid="uid://lx1pn2777yni" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_2.png" id="14_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://b0040d62ffmsh" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_3.png" id="15_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://clmhyv125sda7" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_4.png" id="16_fshgd"]
+[ext_resource type="Texture2D" uid="uid://dhimhmq6c66d4" path="res://Sprites/bounty_hunter_v4_frames/Jump/jump_5.png" id="17_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://du65yyqw6val6" path="res://Sprites/bounty_hunter_v4_frames/Throw/throw_0.png" id="18_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://bwv0wtjls7ing" path="res://Sprites/bounty_hunter_v4_frames/Throw/throw_1.png" id="19_0xo8l"]
+[ext_resource type="Texture2D" uid="uid://cbgo1y36rgje7" path="res://Sprites/bounty_hunter_v4_frames/Throw/throw_2.png" id="20_xfyss"]
+[ext_resource type="Texture2D" uid="uid://dtchwmai81e0g" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_0.png" id="21_3ngjr"]
+[ext_resource type="Texture2D" uid="uid://bvjh6m6casnbe" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_1.png" id="22_qilgh"]
+[ext_resource type="Texture2D" uid="uid://bw6q6j1t0m2jb" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_2.png" id="23_4qosj"]
+[ext_resource type="Texture2D" uid="uid://g1l5u53yjp5b" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_3.png" id="24_cjlbh"]
+[ext_resource type="Texture2D" uid="uid://c3661mxb2cb0o" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_4.png" id="25_kfelt"]
+[ext_resource type="Texture2D" uid="uid://dx2jtdoxuxawo" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_5.png" id="26_ytlpd"]
+[ext_resource type="Texture2D" uid="uid://bhiwbnf1gm6tc" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_6.png" id="27_2v765"]
+[ext_resource type="Texture2D" uid="uid://dfmjnppxlheej" path="res://Sprites/bounty_hunter_v4_frames/Walk/walk_7.png" id="28_b8fb0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fpcmb"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": ExtResource("1_2hxjc")
+}, {
+"duration": 0.8,
+"texture": ExtResource("2_ebxd8")
+}, {
+"duration": 0.8,
+"texture": ExtResource("3_2u7jv")
+}, {
+"duration": 0.8,
+"texture": ExtResource("4_24dk6")
+}],
+"loop": 1,
+"name": &"Attack1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.51,
+"texture": ExtResource("5_mryly")
+}, {
+"duration": 0.51,
+"texture": ExtResource("6_kq1c5")
+}, {
+"duration": 0.51,
+"texture": ExtResource("7_ornx7")
+}, {
+"duration": 0.51,
+"texture": ExtResource("8_cnnru")
+}],
+"loop": 1,
+"name": &"Axe spin",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_540hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_6ip5v")
+}, {
+"duration": 2.0,
+"texture": ExtResource("11_q5dlx")
+}],
+"loop": 1,
+"name": &"Hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 2.5,
+"texture": ExtResource("9_540hr")
+}, {
+"duration": 2.5,
+"texture": ExtResource("10_6ip5v")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.8,
+"texture": ExtResource("12_c4wnb")
+}, {
+"duration": 0.8,
+"texture": ExtResource("13_7plk7")
+}, {
+"duration": 0.8,
+"texture": ExtResource("14_fbwgr")
+}, {
+"duration": 0.8,
+"texture": ExtResource("15_7mj2a")
+}, {
+"duration": 0.8,
+"texture": ExtResource("16_fshgd")
+}, {
+"duration": 0.8,
+"texture": ExtResource("17_lbrxf")
+}],
+"loop": 1,
+"name": &"Jump",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"Run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.8,
+"texture": ExtResource("18_xjt7e")
+}, {
+"duration": 0.8,
+"texture": ExtResource("19_0xo8l")
+}, {
+"duration": 0.8,
+"texture": ExtResource("20_xfyss")
+}],
+"loop": 1,
+"name": &"Throw",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_3ngjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qilgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4qosj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_cjlbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_kfelt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ytlpd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_2v765")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_b8fb0")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[node name="Logan Rook" type="CharacterBody2D" unique_id=1865228088]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2142353420]
+modulate = Color(1, 1, 0.96862745, 0.9764706)
+texture_filter = 3
+position = Vector2(3, -8.999998)
+scale = Vector2(2.291667, 1.9464285)
+sprite_frames = SubResource("SpriteFrames_fpcmb")
+animation = &"Axe spin"
+frame_progress = 0.9540267
+
+[node name="Camera2D" type="Camera2D" parent="AnimatedSprite2D" unique_id=28403872]
